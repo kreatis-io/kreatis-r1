@@ -48,7 +48,7 @@ export default function Right({
         }
         console.log(refs)
         console.log(isInView)
-    }, [isInView])
+    }, [isInView, refs, setSubTitle, setTitle])
 
     return <motion.div
         initial={{
