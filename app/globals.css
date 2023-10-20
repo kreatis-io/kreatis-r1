@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .write-vertical {
+    writing-mode: vertical-lr;
+    rotate: 180deg;
+  }
+}
