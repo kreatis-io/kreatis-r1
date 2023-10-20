@@ -5,45 +5,27 @@
       "description": "Woof OS is an Arch Linux based distribution designed for eye candy and performance.",
       "link": "https://woof-os.github.io",
       "image": "/images/woof-os.png",
-      "backgroundClassName": "bg-gradient-to-r from-rose-100 to-teal-100",
-      "tags": ["Linux", "Arch", "Operating System"],
-      "textClassName": "text-slate-100"
+      "mobileImage": "/images/woof-os-mobile.png",
+      "backgroundClassName": "bg-slate-500 bg-0",
+      "textClassName": "text-black"
     },
     {
-      "title": "Woof OS",
-      "description": "Woof OS is an Arch Linux based distribution designed for eye candy and performance.",
-      "link": "https://woof-os.github.io",
-      "image": "/images/woof-os.png",
-      "backgroundClassName": "bg-[url('https://images.unsplash.com/photo-1575722290270-626b0208df99?auto=format&fit=crop&q=80&w=1935&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-center bg-no-repeat",
-      "tags": ["Linux", "Arch", "Operating System"],
-      "textClassName": "text-slate-100"
+      "title": "Obsek Gallery",
+      "description": "Amateur astrophotography gallery.",
+      "link": "https://acutewoof.is-a.dev/obsek-gallery",
+      "image": "/images/obsek.png",
+      "mobileImage": "/images/obsek-mobile.png",
+      "backgroundClassName": "bg-slate-950 bg-1",
+      "textClassName": "text-white"
     },
     {
-      "title": "Woof OS",
-      "description": "Woof OS is an Arch Linux based distribution designed for eye candy and performance.",
-      "link": "https://woof-os.github.io",
-      "image": "/images/woof-os.png",
-      "backgroundClassName": "bg-[url('https://images.unsplash.com/photo-1575722290270-626b0208df99?auto=format&fit=crop&q=80&w=1935&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-center bg-no-repeat",
-      "tags": ["Linux", "Arch", "Operating System"],
-      "textClassName": "text-slate-100"
-    },
-    {
-      "title": "Woof OS",
-      "description": "Woof OS is an Arch Linux based distribution designed for eye candy and performance.",
-      "link": "https://woof-os.github.io",
-      "image": "/images/woof-os.png",
-      "backgroundClassName": "bg-[url('https://images.unsplash.com/photo-1575722290270-626b0208df99?auto=format&fit=crop&q=80&w=1935&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-center bg-no-repeat",
-      "tags": ["Linux", "Arch", "Operating System"],
-      "textClassName": "text-slate-100"
-    },
-    {
-      "title": "Woof OS",
-      "description": "Woof OS is an Arch Linux based distribution designed for eye candy and performance.",
-      "link": "https://woof-os.github.io",
-      "image": "/images/woof-os.png",
-      "backgroundClassName": "bg-[url('https://images.unsplash.com/photo-1575722290270-626b0208df99?auto=format&fit=crop&q=80&w=1935&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-center bg-no-repeat",
-      "tags": ["Linux", "Arch", "Operating System"],
-      "textClassName": "text-slate-100"
+      "title": "Fitness Course (Template)",
+      "description": "Template design website for selling a fitness course.",
+      "link": "https://fitnesscourse.github.io",
+      "image": "/images/fit.png",
+      "mobileImage": "/images/fit-mobile.png",
+      "backgroundClassName": "bg-slate-500 bg-2",
+      "textClassName": "text-black"
     }
   ]
 }

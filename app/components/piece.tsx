@@ -1,6 +1,7 @@
 import Image from "next/image";
-import { motion } from "framer-motion";
+import { motion, useInView } from "framer-motion";
 import Link from "next/link";
+import { useRef } from "react";
 
 export default function Piece(
     {
@@ -9,32 +10,57 @@ export default function Piece(
         image,
         link,
         backgroundClassName,
-        textClassName
+        textClassName,
+        index,
+        mobileImage
     }: {
         title: string,
         description: string,
         image: string,
         link: string,
         backgroundClassName: string,
-        textClassName: string
+        textClassName: string,
+        index: number,
+        mobileImage: string
     }
 ) {
-    return <div className={backgroundClassName}>
-        <div className={"hidden h-[200vh] lg:flex justify-center items-center py-36 px-12 "}>
+
+    const refs = { text: useRef(null), all: useRef(null) };
+    const isInView = { text: useInView(refs.text), all: useInView(refs.all) }
+
+    return <div className={`${backgroundClassName} bg-fixed w-full bg-cover bg-center bg-no-repeat`}> <div className={`backdrop-blur-sm xl:backdrop-blur-none flex flex-col xl:justify-center items-center px-12 py-24 xl:py-36 xl:px-14 ${(index === 0 ? "xl:h-[200vh]" : "min-h-[150vh]")}`}>
+        <motion.div
+            initial={{ opacity: 0, y: 100 }}
+            animate={
+                isInView.all ? { opacity: 1, y: 0 } : { opacity: 0, y: 100 }}
+            transition={{
+                duration: 1,
+                ease: "easeInOut",
+                delay: index === 0 ? 0.75 : 0
+            }}
+            ref={refs.all}
+            className="flex flex-col gap-4 xl:gap-2">
+            <div className="
+            flex
+            flex-col
+            gap-4
+            items-center
+            ">
+                <Image className="xl:hidden bg-slate-950" src={mobileImage} alt={title} width={700} height={700 * 9 / 16} />
+                <Image className="bg-slate-950" src={image} alt={title} width={800} height={450} /></div>
             <motion.div
-                initial={{ opacity: 0, y: 100 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{
-                    duration: 1,
-                    ease: "easeInOut",
-                    delay: 3
-                }}
-                className="flex flex-col gap-2">
-                <Image src={image} alt={title} width={1920} height={1080} />
-                <motion.div className={"flex justify-between text-sm " + textClassName}>
-                    <p>{title}</p>
-                    <Link href={link} target="_blank" className="underline">Visit</Link>
-                </motion.div>
+                className={"flex justify-between text-sm " + textClassName}>
+                <motion.p initial={{ opacity: 0, x: 20 }}
+                    animate={isInView.text ? { opacity: 1, x: 0 } : { opacity: 0, x: 20 }}
+                    transition={{
+                        duration: 1,
+                        ease: "easeInOut",
+                    }}
+                    ref={refs.text}
+                    className="font-semibold"
+                >{title}</motion.p>
+                <Link href={link} target="_blank" className="">Visit</Link>
             </motion.div>
-        </div></div>
+        </motion.div>
+    </div></div >
 }
