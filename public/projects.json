@@ -12,7 +12,7 @@
     {
       "title": "Obsek Gallery",
       "description": "Amateur astrophotography gallery.",
-      "link": "https://acutewoof.is-a.dev/obsek-gallery",
+      "link": "https://acutewoof.is-a.dev/gallery",
       "image": "/images/obsek.png",
       "mobileImage": "/images/obsek-mobile.png",
       "backgroundClassName": "bg-slate-950 bg-1",
