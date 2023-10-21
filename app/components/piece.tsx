@@ -46,8 +46,20 @@ export default function Piece(
             gap-4
             items-center
             ">
-                <Image className="xl:hidden bg-slate-950 " src={mobileImage} alt={title} width={700} height={700 * 9 / 16} />
-                <Image className="bg-slate-950" src={image} alt={title} width={800} height={450} /></div>
+                <Image
+                    onClick={
+                        () => {
+                            window.open(link, "_blank")
+                        }
+                    }
+                    className="xl:hidden bg-slate-950 cursor-pointer" src={mobileImage} alt={title} width={700} height={700 * 9 / 16} />
+                <Image
+                    onClick={
+                        () => {
+                            window.open(link, "_blank")
+                        }
+                    }
+                    className="bg-slate-950 cursor-pointer" src={image} alt={title} width={800} height={450} /></div>
             <motion.div
                 className={"flex justify-between text-sm " + textClassName}>
                 <motion.p initial={{ opacity: 0, x: 20 }}

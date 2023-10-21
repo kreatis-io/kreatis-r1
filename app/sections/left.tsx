@@ -19,8 +19,8 @@ export default function Left({ title = "Kreatis", subTitle = "Web development ag
         ease: "easeInOut"
     }
 
-    return <main className="flex w-full min-h-screen flex-col gap-4 xl:relative p-6 xl:p-12 " >
-        <div className={"grow w-full flex flex-col pt-12 xl:pt-24 pb-0 " + montserrat.className}>
+    return <main className="flex w-full min-h-screen flex-col gap-4 xl:relative p-6 xl:p-8 2xl:p-12 " >
+        <div className={"grow w-full flex flex-col pt-12 2xl:pt-24 pb-0 " + montserrat.className}>
             <motion.h3
                 initial={{ opacity: 0, x: -100 }}
                 animate={{ opacity: 1, x: 0 }}
