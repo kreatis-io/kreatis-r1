@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@types/nodemailer": "^6.4.13",
+    "@vercel/analytics": "^1.1.1",
     "framer-motion": "^10.16.4",
     "next": "13.5.6",
     "nodemailer": "^6.9.6",
