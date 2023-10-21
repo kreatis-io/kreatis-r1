@@ -49,8 +49,6 @@ export default function Right({
                 setSubTitle("web development agency.")
                 break;
         }
-        console.log(refs)
-        console.log(isInView)
     }, [isInView, refs, setSubTitle, setTitle])
 
     return <motion.div

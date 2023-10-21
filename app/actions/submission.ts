@@ -16,7 +16,6 @@ const transporter = nodemailer.createTransport({
 
 export async function submit(prevState: any, formData: FormData) {
   try {
-    console.log("starting");
     const mailOptions: Object = {
       from: email,
       to: "contact@kreatis.io",
@@ -28,11 +27,7 @@ export async function submit(prevState: any, formData: FormData) {
       logger: true,
     };
 
-    console.log("info taken");
-
     const info = await transporter.sendMail(mailOptions);
-
-    console.log("sent");
 
     return { message: "success" };
   } catch (e) {

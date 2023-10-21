@@ -27,10 +27,6 @@ export default function Portfolio({ customRef }: {
         getProjects()
     }, [])
 
-    useEffect(() => {
-        console.log(projects)
-    }, [projects])
-
     return <section id="portfolio">
         <motion.div ref={customRef} className="min-h-screen flex flex-col items-center justify-center" >
             {projects &&
