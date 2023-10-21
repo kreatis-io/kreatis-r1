@@ -14,7 +14,7 @@ export default function Reason({ index, title, reason }: { index: number, title:
     const isInView1 = useInView(ref1);
 
 
-    return <div className="py-12 px-12 xl:h-screen xl:p-36 flex flex-col justify-center gap-4 xl:gap-12">
+    return <div className="w-full xl:max-w-[50vw] py-12 px-12 xl:h-screen xl:p-36 flex flex-col justify-center gap-4 xl:gap-12">
         <motion.h1
             initial={{ opacity: 0, y: 100 }}
             animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 100 }}
@@ -23,7 +23,7 @@ export default function Reason({ index, title, reason }: { index: number, title:
                 ease: "easeInOut",
             }}
             ref={ref}
-            className={"xl:text-8xl font-semibold " + montserrat.className} >
+            className={"lg:text-6xl 2xl:text-[5vw] font-semibold " + montserrat.className} >
             {title}
         </motion.h1>
         <motion.p
@@ -35,7 +35,7 @@ export default function Reason({ index, title, reason }: { index: number, title:
                 delay: 0.25
             }}
             ref={ref1}
-            className="text-xl font-light">
+            className="text-lg 2xl:text-[1vw] font-light">
             {reason}
         </motion.p>
     </div>

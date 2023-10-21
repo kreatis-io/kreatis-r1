@@ -74,10 +74,9 @@ export default function Footer() {
                     <li>
                         <Link
                             className="underline"
-                            href="#contact">Contact form</Link>
+                            href="#contact">Contact us</Link>
                     </li>
                     <li>contact@kreatis.io</li>
-                    <li>acutewoof@kreatis.io</li>
                 </ul>
             </motion.div>
         </div>

@@ -42,7 +42,7 @@ function Contact({
     }, [state])
 
     return (
-        <section ref={customRef} className='bg-gray-100 p-12 xl:py-36 xl:px-24 h-screen xl:h-[120vh] flex flex-col justify-center' id="contact">
+        <section ref={customRef} className='bg-gray-100 p-12 xl:py-36 xl:px-24 xl:max-w-[50vw] h-screen flex flex-col justify-center' id="contact">
             <motion.h3
                 initial={{ opacity: 0, y: 100 }}
                 animate={isInView2 ? { opacity: 1, y: 0 } : { opacity: 0, y: 100 }}

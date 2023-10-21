@@ -10,7 +10,7 @@ export default function Portfolio({ customRef }: {
             "title": "",
             "description": "",
             "link": "",
-            "image": "",
+            "image": "/images/woof-os.png",
             "backgroundClassName": "",
             "textClassName": "",
             "mobileImage": ""

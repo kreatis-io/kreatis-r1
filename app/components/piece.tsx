@@ -28,7 +28,7 @@ export default function Piece(
     const refs = { text: useRef(null), all: useRef(null) };
     const isInView = { text: useInView(refs.text), all: useInView(refs.all) }
 
-    return <div className={`${backgroundClassName} bg-fixed w-full bg-cover bg-center bg-no-repeat`}> <div className={`backdrop-blur-sm xl:backdrop-blur-none flex flex-col xl:justify-center items-center px-12 py-24 xl:py-36 xl:px-14 ${(index === 0 ? "xl:h-[200vh]" : "min-h-[150vh]")}`}>
+    return <div className={`${backgroundClassName} bg-fixed w-full bg-cover bg-center bg-no-repeat`}> <div className={`backdrop-blur-sm xl:backdrop-blur-none flex flex-col xl:justify-center items-center px-12 py-24 xl:py-36 xl:px-14 xl:max-w-[50vw] ${(index === 0 ? "xl:h-[200vh]" : "min-h-[150vh]")}`}>
         <motion.div
             initial={{ opacity: 0, y: 100 }}
             animate={
@@ -36,7 +36,7 @@ export default function Piece(
             transition={{
                 duration: 1,
                 ease: "easeInOut",
-                delay: index === 0 ? 0.75 : 0
+                delay: index === 0 ? 0.5 : 0
             }}
             ref={refs.all}
             className="flex flex-col gap-4 xl:gap-2">
@@ -46,7 +46,7 @@ export default function Piece(
             gap-4
             items-center
             ">
-                <Image className="xl:hidden bg-slate-950" src={mobileImage} alt={title} width={700} height={700 * 9 / 16} />
+                <Image className="xl:hidden bg-slate-950 " src={mobileImage} alt={title} width={700} height={700 * 9 / 16} />
                 <Image className="bg-slate-950" src={image} alt={title} width={800} height={450} /></div>
             <motion.div
                 className={"flex justify-between text-sm " + textClassName}>

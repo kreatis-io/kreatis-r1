@@ -17,28 +17,31 @@ export default function Right({
         why: useRef(null),
         contact: useRef(null)
     }
+    const viewOptions = {
+        margin: "0px 0px -50% 0px"
+    }
     const isInView = {
-        portfolio: useInView(refs.portfolio),
-        why: useInView(refs.why),
-        contact: useInView(refs.contact)
+        portfolio: useInView(refs.portfolio, viewOptions),
+        why: useInView(refs.why, viewOptions),
+        contact: useInView(refs.contact, viewOptions)
     }
 
     useEffect(() => {
         switch (true) {
-            case isInView.portfolio:
-                setText("Projects")
-                setTitle("Kreatis")
-                setSubTitle("is a web development agency.")
+            case isInView.contact:
+                setText("contact@kreatis.io")
+                setTitle("contact")
+                setSubTitle("us to get started.")
                 break;
             case isInView.why:
                 setText("Why do I need a website?")
                 setTitle("reasons")
                 setSubTitle("to have a website.")
                 break;
-            case isInView.contact:
-                setText("contact@kreatis.io")
-                setTitle("contact")
-                setSubTitle("us to get started.")
+            case isInView.portfolio:
+                setText("Projects")
+                setTitle("Kreatis")
+                setSubTitle("is a web development agency.")
                 break;
             default:
                 setText("Projects")
