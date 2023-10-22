@@ -21,7 +21,7 @@ export default function Reason({ index, title, reason }: { index: number, title:
         >
             <motion.h1
                 initial={{ opacity: 0, y: 100 }}
-                animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 100 }}
+                animate={isInView && { opacity: 1, y: 0 }}
                 transition={{
                     duration: 0.5,
                     ease: "easeInOut",
@@ -32,7 +32,7 @@ export default function Reason({ index, title, reason }: { index: number, title:
             </motion.h1>
             <motion.p
                 initial={{ opacity: 0, y: 100 }}
-                animate={isInView1 ? { opacity: 1, y: 0 } : { opacity: 0, y: 100 }}
+                animate={isInView1 && { opacity: 1, y: 0 }}
                 transition={{
                     duration: 0.5,
                     ease: "easeInOut",

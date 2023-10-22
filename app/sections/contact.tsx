@@ -45,7 +45,7 @@ function Contact({
         <section ref={customRef} className='bg-gray-100 p-12 xl:py-36 xl:px-24 xl:max-w-[50vw] h-screen flex flex-col justify-center' id="contact">
             <motion.h3
                 initial={{ opacity: 0, y: 100 }}
-                animate={isInView2 ? { opacity: 1, y: 0 } : { opacity: 0, y: 100 }}
+                animate={isInView2 && { opacity: 1, y: 0 }}
                 transition={{
                     duration: 0.5,
                     ease: "easeInOut",
@@ -56,7 +56,7 @@ function Contact({
             <div className="w-full">
                 <motion.div
                     initial={{ opacity: 0, y: 100 }}
-                    animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 100 }}
+                    animate={isInView && { opacity: 1, y: 0 }}
                     transition={{
                         duration: 0.5,
                         ease: "easeInOut",

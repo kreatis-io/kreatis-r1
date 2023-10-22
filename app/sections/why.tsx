@@ -36,7 +36,7 @@ export default function Why({ customRef }: {
     return <section id="why"><motion.div ref={customRef} className="bg-gray-200 min-h-[150vh] flex flex-col items-center justify-center" >
         <motion.h3
             initial={{ opacity: 0, y: 100 }}
-            animate={isInView2 ? { opacity: 1, y: 0 } : { opacity: 0, y: 100 }}
+            animate={isInView2 && { opacity: 1, y: 0 }}
             transition={{
                 duration: 0.5,
                 ease: "easeInOut",

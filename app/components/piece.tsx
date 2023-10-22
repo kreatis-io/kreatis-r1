@@ -32,7 +32,7 @@ export default function Piece(
         <motion.div
             initial={{ opacity: 0, y: 100 }}
             animate={
-                isInView.all ? { opacity: 1, y: 0 } : { opacity: 0, y: 100 }}
+                isInView.all && { opacity: 1, y: 0 }}
             transition={{
                 duration: 1,
                 ease: "easeInOut",
@@ -63,7 +63,7 @@ export default function Piece(
             <motion.div
                 className={"flex justify-between text-sm " + textClassName}>
                 <motion.p initial={{ opacity: 0, x: 20 }}
-                    animate={isInView.text ? { opacity: 1, x: 0 } : { opacity: 0, x: 20 }}
+                    animate={isInView.text && { opacity: 1, x: 0 }}
                     transition={{
                         duration: 1,
                         ease: "easeInOut",
