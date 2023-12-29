@@ -72,7 +72,7 @@ function Contact({
                         </div>
                         <div>
                             <label htmlFor="name" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your name</label>
-                            <input type="text" name="name" id="subject" className="block p-3 w-full text-sm text-gray-900 bg-gray-50 border border-gray-300 focus:outline-none focus:border-slate-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-slate-500 dark:focus:border-slate-500 " placeholder="Catherine" required />
+                            <input type="text" name="name" id="subject" className="block p-3 w-full text-sm text-gray-900 bg-gray-50 border border-gray-300 focus:outline-none focus:border-slate-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-slate-500 dark:focus:border-slate-500 " placeholder="John Doe" required />
                         </div>
                         <div className="sm:col-span-2">
                             <label htmlFor="message" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Your message</label>
