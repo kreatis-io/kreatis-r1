@@ -19,11 +19,11 @@
       "textClassName": "text-white"
     },
     {
-      "title": "Fitness Course (Template)",
-      "description": "Template design website for selling a fitness course.",
-      "link": "https://fitnesscourse.github.io",
-      "image": "/images/fit.png",
-      "mobileImage": "/images/fit-mobile.png",
+      "title": "E-Commerce Dashboard for GSL Wholesalers LTD",
+      "description": "The frontend for the e-commerce dashboard built specifically for GSL Wholesalers LTD. The frontend template code is available publicly on Github.",
+      "link": "https://github.com/kreatis-io/gsl-dashboard-nextjs",
+      "image": "https://acutewoof.is-a.dev/images/gsl.png",
+      "mobileImage": "https://acutewoof.is-a.dev/images/gsl.png",
       "backgroundClassName": "bg-slate-500 bg-2",
       "textClassName": "text-black"
     }
