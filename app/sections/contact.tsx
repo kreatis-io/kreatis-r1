@@ -2,8 +2,7 @@ import { motion, useInView } from "framer-motion"
 import SumbitButton from "../components/submitButton";
 import { submit } from "../actions/submission";
 import { Montserrat } from "next/font/google"
-// @ts-expect-error
-import { experimental_useFormState as useFormState } from 'react-dom'
+import { useFormState } from 'react-dom'
 import { useEffect, useRef } from "react";
 
 const montserrat = Montserrat({ subsets: ['latin'], weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"] })
