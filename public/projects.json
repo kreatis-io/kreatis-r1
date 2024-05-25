@@ -1,12 +1,12 @@
 {
   "projects": [
     {
-      "title": "Woof OS",
-      "description": "Woof OS is an Arch Linux based distribution designed for eye candy and performance.",
-      "link": "https://woof-os.github.io",
-      "image": "/images/woof-os.png",
-      "mobileImage": "/images/woof-os-mobile.png",
-      "backgroundClassName": "bg-slate-500 bg-0",
+      "title": "E-Commerce Dashboard for GSL Wholesalers LTD",
+      "description": "The frontend for the e-commerce dashboard built specifically for GSL Wholesalers LTD. The frontend template code is available publicly on Github.",
+      "link": "https://github.com/kreatis-io/gsl-dashboard-nextjs",
+      "image": "https://lewoof.xyz/images/gsl.png",
+      "mobileImage": "https://lewoof.xyz/images/gsl.png",
+      "backgroundClassName": "bg-slate-500 bg-2",
       "textClassName": "text-black"
     },
     {
@@ -19,12 +19,12 @@
       "textClassName": "text-white"
     },
     {
-      "title": "E-Commerce Dashboard for GSL Wholesalers LTD",
-      "description": "The frontend for the e-commerce dashboard built specifically for GSL Wholesalers LTD. The frontend template code is available publicly on Github.",
-      "link": "https://github.com/kreatis-io/gsl-dashboard-nextjs",
-      "image": "https://lewoof.xyz/images/gsl.png",
-      "mobileImage": "https://lewoof.xyz/images/gsl.png",
-      "backgroundClassName": "bg-slate-500 bg-2",
+      "title": "Riya by GSL",
+      "description": "",
+      "link": "https://riyabygsl.com",
+      "image": "/images/riyabygsl.png",
+      "mobileImage": "/images/riyabygsl-mobile.png",
+      "backgroundClassName": "bg-slate-500 bg-0",
       "textClassName": "text-black"
     }
   ]
