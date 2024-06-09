@@ -1,14 +1,5 @@
 {
   "projects": [
-     {
-      "title": "Turtle Wif Straw",
-      "description": "NFT",
-      "link": "https://turtlewifstraw.fun",
-      "image": "/images/turtle.png",
-      "mobileImage": "/images/turtle-mobile.png",
-      "backgroundClassName": "bg-slate-950 bg-3",
-      "textClassName": "text-white"
-    },
     {
       "title": "E-Commerce Dashboard for GSL Wholesalers LTD",
       "description": "The frontend for the e-commerce dashboard built specifically for GSL Wholesalers LTD. The frontend template code is available publicly on Github.",
