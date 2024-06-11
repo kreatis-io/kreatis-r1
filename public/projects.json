@@ -7,7 +7,7 @@
       "image": "https://lewoof.xyz/images/gsl.png",
       "mobileImage": "https://lewoof.xyz/images/gsl.png",
       "backgroundClassName": "bg-slate-950 bg-3",
-      "textClassName": "text-whtie"
+      "textClassName": "text-white"
     },
     {
       "title": "Obsek Gallery",
@@ -24,7 +24,7 @@
       "link": "https://riyabygsl.com",
       "image": "/images/riyabygsl.png",
       "mobileImage": "/images/riyabygsl-mobile.png",
-      "backgroundClassName": "bg-slate-500 bg-0",
+      "backgroundClassName": "bg-slate-500 bg-2",
       "textClassName": "text-black"
     }
   ]
