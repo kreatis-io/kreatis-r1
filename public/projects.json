@@ -1,13 +1,22 @@
 {
   "projects": [
     {
+      "title": "Radiant Tools (Solana)",
+      "description": "Tools for Solona.",
+      "link": "https://radiant-tools.com",
+      "image": "/images/radiant-tools.png",
+      "mobileImage": "/images/radiant-tools-mobile.png",
+      "backgroundClassName": "bg-slate-950 bg-1",
+      "textClassName": "text-white"
+    },
+    {
       "title": "E-Commerce Dashboard for GSL Wholesalers LTD",
       "description": "The frontend for the e-commerce dashboard built specifically for GSL Wholesalers LTD. The frontend template code is available publicly on Github.",
       "link": "https://github.com/kreatis-io/gsl-dashboard-nextjs",
-      "image": "https://lewoof.xyz/images/gsl.png",
-      "mobileImage": "https://lewoof.xyz/images/gsl.png",
-      "backgroundClassName": "bg-slate-950 bg-3",
-      "textClassName": "text-white"
+      "image": "/images/gsl.png",
+      "mobileImage": "/images/gsl.png",
+      "backgroundClassName": "bg-slate-500 bg-0",
+      "textClassName": "text-black"
     },
     {
       "title": "Obsek Gallery",
@@ -15,7 +24,7 @@
       "link": "https://acutewoof.is-a.dev/gallery",
       "image": "/images/obsek.png",
       "mobileImage": "/images/obsek-mobile.png",
-      "backgroundClassName": "bg-slate-950 bg-1",
+      "backgroundClassName": "bg-slate-950 bg-3",
       "textClassName": "text-white"
     },
     {

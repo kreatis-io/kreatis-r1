@@ -9,10 +9,10 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        "0": "url('https://unsplash.com/photos/7XRcZ9fbkRQ/download?force=true')",
-        "2": "url('https://unsplash.com/photos/eFbxYl9M_lc/download?force=true')",
-        "1": "url('https://unsplash.com/photos/4ZFeOnVwoek/download?force=true')",
-	"3": "url('https://unsplash.com/photos/6lQDFGOB1iw/download?force=true')"
+        "0": "url('https://unsplash.com/photos/Qiy4hr18aGs/download?force=true')",
+        "1": "url('https://unsplash.com/photos/hoS3dzgpHzw/download?force=true')",
+        "2": "url('https://unsplash.com/photos/nN1HSDtKdlw/download?force=true')",
+        "3": "url('https://unsplash.com/photos/6lQDFGOB1iw/download?force=true')",
       },
     },
   },
