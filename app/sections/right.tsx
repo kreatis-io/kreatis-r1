@@ -29,7 +29,7 @@ export default function Right({
     useEffect(() => {
         switch (true) {
             case isInView.contact:
-                setText("contact@kreatis.io")
+                setText("sutharshanvithushan@gmail.com")
                 setTitle("contact")
                 setSubTitle("us to get started.")
                 break;

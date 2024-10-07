@@ -18,7 +18,7 @@ export async function submit(prevState: any, formData: FormData) {
   try {
     const mailOptions: Object = {
       from: email,
-      to: "contact@kreatis.io",
+      to: "sutharshanvithushan@gmail.com",
       subject: `New Message from ${formData.get("name")}, Email: ${formData.get(
         "email"
       )}`,
